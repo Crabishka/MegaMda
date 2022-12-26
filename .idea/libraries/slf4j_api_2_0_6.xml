@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="slf4j-api-2.0.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MyBiver/src/lib/slf4j-api-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyBiver/src/lib/slf4j-simple-2.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
