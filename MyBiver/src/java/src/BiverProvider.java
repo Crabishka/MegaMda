@@ -31,7 +31,7 @@ public class BiverProvider implements PersistenceProvider {
     public EntityManagerFactory createEntityManagerFactory(String s, Map map) {
         try {
             DataSourcePool dataSourcePool = DataSourcePool.create("jdbc:postgresql://localhost:5432/postgres",
-                    "admin", "koteika322");
+                    "admin", "password");
             List<EntityBeanCreator> creatorList = new ArrayList<>();
             creatorList.add(new PrimitiveEntityBeanCreator());
             creatorList.add(new AfterTableEntityBeanCreator());
